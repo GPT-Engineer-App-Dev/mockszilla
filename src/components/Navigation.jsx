@@ -15,6 +15,11 @@ const Navigation = () => {
           <Text>Test Page 1</Text>
         </Link>
       </Box>
+      <Box>
+        <Link to="/test-page-2">
+          <Text>Test Page 2</Text>
+        </Link>
+      </Box>
     </Flex>
   );
 };
