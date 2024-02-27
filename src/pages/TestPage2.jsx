@@ -7,7 +7,7 @@ const TestPage2 = () => {
       <Box p={5}>
         <Text fontSize="xl">This is Test Page 2</Text>
       </Box>
-      <Button colorScheme="blue" mt={4}>
+      <Button colorScheme="red" mt={4}>
         Mock Button
       </Button>
     </>
