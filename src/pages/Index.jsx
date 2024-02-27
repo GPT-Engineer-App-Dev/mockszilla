@@ -52,7 +52,7 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
-      <Button colorScheme="red" mt={4}>
+      <Button colorScheme="blue" mt={4}>
         Mock Button
       </Button>
     </VStack>
