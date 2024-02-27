@@ -8,34 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          exact
-          path="/"
-          element={
-            <>
-              <Navigation />
-              <Index />
-            </>
-          }
-        />
-        <Route
-          path="/test-page-1"
-          element={
-            <>
-              <Navigation />
-              <TestPage1 />
-            </>
-          }
-        />
-        <Route
-          path="/test-page-2"
-          element={
-            <>
-              <Navigation />
-              <TestPage2 />
-            </>
-          }
-        />
+        <Route exact path="/" element={<Index />} />
+        <Route path="/test-page-1" element={<TestPage1 />} />
+        <Route path="/test-page-2" element={<TestPage2 />} />
       </Routes>
     </Router>
   );
