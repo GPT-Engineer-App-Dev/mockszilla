@@ -16,8 +16,8 @@ const Navigation = () => {
         </Link>
       </Box>
       <Box>
-        <Link to="/test-page-2">
-          <Text>Test Page 2</Text>
+        <Link to="/about">
+          <Text>About</Text>
         </Link>
       </Box>
     </Flex>
